@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery.min.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>canvas</title>
+  </head>
+  <body>
+    <div class="main">
+      <input type="file" id="inp" placeholder="choose file" />
+      <input type="text" id="text" />
+
+      <button id="move">MOVE</button>
+      <button id="save">SAVE</button>
+      <button id="reset">RESET</button>
+      <canvas
+        id="canvas"
+        width="800"
+        height="800"
+        style="border: 1px solid #000000"
+      ></canvas>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.min.js"
+      integrity="sha512-DvLlX4EDfBZuesenAya2TOiF+cR7GbRsV+IElolKTYIj8JJHr9BFTcznTuRFabG26vcVsmDCcv2dL7m8Ov1XfA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/460/fabric.min.js"></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

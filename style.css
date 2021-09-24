@@ -1,0 +1,15 @@
+input {
+  /* border: none; */
+  text-align: center;
+  /* background-color: aqua; */
+  /* width: 100px; */
+  /* height: 28px; */
+}
+.main {
+  width: 900px;
+  height: 900px;
+  margin: auto;
+}
+button {
+  margin-right: 10px;
+}
