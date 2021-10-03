@@ -62,8 +62,6 @@ resetbtn.addEventListener('click', function(){
 
   var json = canvas.toJSON();
   
-  
-  
   canvas.loadFromJSON(json, canvas.renderAll.bind(canvas));
 })
  
